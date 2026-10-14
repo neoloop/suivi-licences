@@ -135,8 +135,8 @@ sh /volume1/web/suivi-licences/lancer.sh
 ### Linux / macOS
 
 ```bash
-git clone https://github.com/neoloop/logiciels.git
-cd logiciels/suivi-licences
+git clone https://github.com/neoloop/suivi-licences.git
+cd suivi-licences
 npm install --omit=dev
 PORT=8091 node server.js
 ```
@@ -260,7 +260,7 @@ Environment variables: `PORT` (8091), `DATA_DIR` (`./data`), `TZ`, `APP_USER` / 
 
 ## License
 
-[MIT](../LICENSE).
+[MIT](LICENSE).
 
 ## Support the project
 
@@ -268,4 +268,4 @@ This app is free and open source. If it saves you time, you can buy me a coffee 
 
 [![Buy me a coffee](https://img.shields.io/badge/Buy_me_a_coffee-FFDD00?style=for-the-badge&logo=buymeacoffee&logoColor=black)](https://buymeacoffee.com/neoloop)
 
-An idea, a bug? Open an [issue](https://github.com/neoloop/logiciels/issues).
+An idea, a bug? Open an [issue](https://github.com/neoloop/suivi-licences/issues).

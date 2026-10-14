@@ -135,8 +135,8 @@ sh /volume1/web/suivi-licences/lancer.sh
 ### Linux / macOS
 
 ```bash
-git clone https://github.com/neoloop/logiciels.git
-cd logiciels/suivi-licences
+git clone https://github.com/neoloop/suivi-licences.git
+cd suivi-licences
 npm install --omit=dev
 PORT=8091 node server.js
 ```
@@ -260,7 +260,7 @@ Variables d'environnement : `PORT` (8091), `DATA_DIR` (`./data`), `TZ`, `APP_USE
 
 ## Licence
 
-[MIT](../LICENSE).
+[MIT](LICENSE).
 
 ## Soutenir le projet
 
@@ -268,4 +268,4 @@ Cette application est libre et gratuite. Si elle vous fait gagner du temps, vous
 
 [![Offrir un café](https://img.shields.io/badge/Offrir_un_caf%C3%A9-FFDD00?style=for-the-badge&logo=buymeacoffee&logoColor=black)](https://buymeacoffee.com/neoloop)
 
-Une idée, un bug ? Ouvrez une [issue](https://github.com/neoloop/logiciels/issues).
+Une idée, un bug ? Ouvrez une [issue](https://github.com/neoloop/suivi-licences/issues).
